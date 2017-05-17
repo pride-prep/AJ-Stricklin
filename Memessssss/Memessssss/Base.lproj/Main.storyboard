@@ -61,7 +61,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="TJ1-6h-hDM"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snek.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dwz-mt-O4Y">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snek.png" translatesAutoresizingMaskIntoConstraints="NO" id="dwz-mt-O4Y">
                                 <rect key="frame" x="0.0" y="108" width="375" height="559"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -198,10 +198,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Doge.jpg" width="16" height="16"/>
-        <image name="Snek.jpg" width="16" height="16"/>
+        <image name="Doge.jpg" width="290" height="174"/>
+        <image name="Snek.png" width="275" height="183"/>
         <image name="SuperSanik.jpg" width="300" height="168"/>
-        <image name="XD.jpg" width="16" height="16"/>
+        <image name="XD.jpg" width="254" height="198"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TJ1-6h-hDM"/>

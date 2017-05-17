@@ -13,6 +13,9 @@
 		3F0B90841ECB8B1100934068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B90831ECB8B1100934068 /* Assets.xcassets */; };
 		3F0B90871ECB8B1100934068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B90851ECB8B1100934068 /* LaunchScreen.storyboard */; };
 		3F0B908F1ECB8B7F00934068 /* SuperSanik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B908E1ECB8B7F00934068 /* SuperSanik.jpg */; };
+		3F17776F1ECCE4D800B8D888 /* XD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F17776E1ECCE4D800B8D888 /* XD.jpg */; };
+		3F1777711ECCE4F900B8D888 /* Doge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1777701ECCE4F900B8D888 /* Doge.jpg */; };
+		3F1777731ECCE51E00B8D888 /* Snek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1777721ECCE51E00B8D888 /* Snek.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3F0B90861ECB8B1100934068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0B90881ECB8B1100934068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0B908E1ECB8B7F00934068 /* SuperSanik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SuperSanik.jpg; path = ../../SuperSanik.jpg; sourceTree = "<group>"; };
+		3F17776E1ECCE4D800B8D888 /* XD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = XD.jpg; path = ../../XD.jpg; sourceTree = "<group>"; };
+		3F1777701ECCE4F900B8D888 /* Doge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Doge.jpg; path = ../../Doge.jpg; sourceTree = "<group>"; };
+		3F1777721ECCE51E00B8D888 /* Snek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Snek.png; path = ../../Snek.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 		3F0B907B1ECB8B1100934068 /* Memessssss */ = {
 			isa = PBXGroup;
 			children = (
+				3F1777701ECCE4F900B8D888 /* Doge.jpg */,
 				3F0B908E1ECB8B7F00934068 /* SuperSanik.jpg */,
+				3F1777721ECCE51E00B8D888 /* Snek.png */,
+				3F17776E1ECCE4D800B8D888 /* XD.jpg */,
 				3F0B907C1ECB8B1100934068 /* AppDelegate.swift */,
 				3F0B907E1ECB8B1100934068 /* ViewController.swift */,
 				3F0B90801ECB8B1100934068 /* Main.storyboard */,
@@ -126,10 +135,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F17776F1ECCE4D800B8D888 /* XD.jpg in Resources */,
 				3F0B90871ECB8B1100934068 /* LaunchScreen.storyboard in Resources */,
+				3F1777711ECCE4F900B8D888 /* Doge.jpg in Resources */,
 				3F0B90841ECB8B1100934068 /* Assets.xcassets in Resources */,
 				3F0B908F1ECB8B7F00934068 /* SuperSanik.jpg in Resources */,
 				3F0B90821ECB8B1100934068 /* Main.storyboard in Resources */,
+				3F1777731ECCE51E00B8D888 /* Snek.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +317,7 @@
 				3F0B908D1ECB8B1100934068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
