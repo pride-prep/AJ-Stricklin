@@ -12,6 +12,7 @@
 		3F22A57D1EDF4CAA00A55716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F22A57B1EDF4CAA00A55716 /* Main.storyboard */; };
 		3F22A57F1EDF4CAA00A55716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F22A57E1EDF4CAA00A55716 /* Assets.xcassets */; };
 		3F22A5821EDF4CAA00A55716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F22A5801EDF4CAA00A55716 /* LaunchScreen.storyboard */; };
+		3F22A59D1EE5E5E900A55716 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F22A59C1EE5E5E900A55716 /* imgres.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F22A57E1EDF4CAA00A55716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F22A5811EDF4CAA00A55716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F22A5831EDF4CAA00A55716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F22A59C1EE5E5E900A55716 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imgres.jpg; path = ../imgres.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				3F22A5761EDF4CAA00A55716 /* Final_Project_Rough_Draft */,
 				3F22A5751EDF4CAA00A55716 /* Products */,
+				3F22A59C1EE5E5E900A55716 /* imgres.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F22A59D1EE5E5E900A55716 /* imgres.jpg in Resources */,
 				3F22A5821EDF4CAA00A55716 /* LaunchScreen.storyboard in Resources */,
 				3F22A57F1EDF4CAA00A55716 /* Assets.xcassets in Resources */,
 				3F22A57D1EDF4CAA00A55716 /* Main.storyboard in Resources */,
@@ -301,6 +305,7 @@
 				3F22A5881EDF4CAA00A55716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
